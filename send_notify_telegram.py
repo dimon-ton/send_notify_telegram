@@ -11,7 +11,7 @@ def send_telegram_notify():
    token = os.getenv("TELEGRAM_TOKEN")  # Telegram bot token ของเรา
    chat_id = os.getenv("USER_ID")  # Chat ID ของเรา
    
-   message = "Hello Telegram from python"  # ข้อความที่จะส่ง
+   message = "Hello Telegram Group from python"  # ข้อความที่จะส่ง
 
 
    telegram_url = f"https://api.telegram.org/bot{token}/sendMessage" # URL สำหรับส่งข้อความ
