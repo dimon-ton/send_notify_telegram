@@ -17,4 +17,10 @@ async def on_ready():
     print(f'Bot ready')
 
 
+
+@bot.command()
+async def hello(ctx):
+    await ctx.send(f"สวัสดีครับ {ctx.author.mention}")
+
+
 bot.run(token)
